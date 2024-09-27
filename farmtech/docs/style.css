@@ -1,0 +1,36 @@
+
+body{
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.navheader{
+    margin: 0 0 0 20%;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.navheader nav ul{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.navheader nav ul li{
+    display: inline;
+}
+
+.naheader nav ul li a{
+    text-decoration: none;
+}
+
+.navheader nav ul li a:hover{
+    transition: .8s;
+    color: pink;
+}
+
+
+h2{
+    color: red;
+}
