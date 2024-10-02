@@ -9,7 +9,7 @@ body{
 .navheader{
     margin: 0 0 0 20%;
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .navheader nav ul{
@@ -21,16 +21,20 @@ body{
     display: inline;
 }
 
-.naheader nav ul li a{
+.navheader nav ul li a{
     text-decoration: none;
 }
 
 .navheader nav ul li a:hover{
     transition: .8s;
-    color: pink;
+    text-decoration: underline;
+    color: brown;
 }
-
 
 h2{
     color: red;
+}
+
+.productscatalogue img{
+    height: 100px;
 }
